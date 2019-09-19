@@ -31,6 +31,6 @@ Cineplex isn't the most exciting job ever," I said. "What about your day?" I ask
 
 The next thing I knew we were walking on the sidewalk chatting away. " Then he flew away to-" I paused.    " Hey Blade, see that party over there?" I asked. " Yeah what about it? He asked.  "Let's go to it, it'll be fun and it's so crowded no one will notice two more people." 
 
-A few seconds later we were in the party and I had another crazy idea. " Blade, let's start kissing in the middle of everyone," I said. " It could be a way of thanking our hosts," I said. " Caitlyn, I like the way you think!" Blade said. We got in the middle of the living room and started kissing. We kissed for a while. We kissed until I heard a girl yell," Hey! Who are you?"  " Um, great party!" I said. Me and Blade laughed and ran all the way to the stoplight.
+A few seconds later we were in the party and I had another crazy idea. " Blade, let's start kissing in the middle of everyone," I said. " It could be a way of thanking our hosts," I said. " Caitlyn, I like the way you think!" Blade said. We got in the middle of the living room and started kissing. We kissed for a while. We kissed until I heard a girl yell, " Hey! Who are you?"  " Um, great party!" I said. Me and Blade laughed and ran all the way to the stoplight.
 
 __
