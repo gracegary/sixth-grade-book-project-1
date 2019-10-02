@@ -30,6 +30,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
+    "react-parallax": "^2.2.3",
     "uuid": "^3.2.1"
   },
   "keywords": [
@@ -45,7 +46,7 @@
     "build:app": "npm run clean && gatsby build",
     "build:lambda": "netlify-lambda build src/lambda",
     "build": "run-p build:**",
-    "develop": "npm run clean && gatsby develop",
+    "develop": "npm run clean && gatsby develop --host 0.0.0.0",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
