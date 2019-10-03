@@ -2,9 +2,7 @@
 templateKey: blog-post
 title: Second Blog Post
 date: 2008-06-29T21:49:00.000Z
-description: >-
-  "AHHHHHHHHHHH!" I've done something terrible. I've killed him and I can't
-  forget it.
+description: Oh no! Please no! I've killed Blade and I'll never forget it. Neither will he.
 featuredpost: true
 featuredimage: /img/products-grid3.jpg
 tags:
@@ -20,6 +18,6 @@ tags:
 
 Later the next day I found myself sitting at the dinner table nudging my food. I had a date with Blade later that night and I couldn't focus. So as soon as my parents said I could be excused I immediately grabbed my phone and launched onto my bed.  Then about fifteen minutes later I got a message from Blade. I looked at my phone and read the text," Can't come tonight." it said. I couldn't hide my disappointment. But then I remembered Miranda had invited me too come watch videos at her house. I threw on my coat, grabbed my car keys and pulled out of our driveway. I was two turns from Miranda's house when a red convertible caught my eye. I looked at the license plate and gasped, it was Blade's car. 
 
-I turned off my headlights and followed him. I stayed a few blocks behind him so he wouldn't see me. After a few minutes he turned into the country club. He parked and I watched him open the car door on the other side of him. A girl got out of it and he walked her inside. I sneaked into the country club and saw him and the girl at the bar. I walked over there, took a deep breath and calmly asked Blade what he was doing. " Oh just hanging out with my girlfriend, " he said. That was it, I ran out of the club and into my car. 
+I turned off my headlights and followed him. I stayed a few blocks behind him so he wouldn't see me. After a few minutes he turned into the country club. He parked and I watched him open the car door on the other side of him. A girl got out of it and he walked her inside. I sneaked into the country club and saw him and the girl at the bar. I walked over there, took a deep breath and calmly asked Blade what he was doing. " Oh just hanging out with my girlfriend, " he said. That was it, I ran out of the club and into my car. I cried the whole way home. As soon as I parked my car, I ran inside, threw my bag on the ground and ran up to my room. 
 
-I cried the whole way home. As soon as I parked my car, I ran inside, threw my bag on the ground
+I had fallen asleep when a few seconds later, I woke up. So I decided to see if Blade was still at the Country Club. I hopped in my car and drove to his house. He wasn't there so I waited on him. A few minutes later he pulled up. " What are you doing at my house Caitlyn?" he asked.  Next thing I knew I was so mad that I grabbed the knife from my bag, stabbed him and ran.
