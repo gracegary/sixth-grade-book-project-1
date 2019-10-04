@@ -5,9 +5,11 @@ image: /img/jumbotron_2.jpg
 heading: A scary story with a twist!
 subheading: Murdering her boyfriend is the least of her troubles...
 mainpitch:
-  title: About the Dead Boyfriend
+  title: Grace Gary's The Dead Boyfriend Project
   description: >
     Caitlin has never had a real relationship before, so when she sees her boyfriend, Blade, with another girl, she completely loses it.  As she regains her senses, she realizes that Blade is dead - and she has killed him.  But if Blade is dead, how is he staring at her across a crowded party?
+
+    The Dead Boyfriend was written by R.L. Stine
 description: >-
   Readers of this book will be looking over their shoulder!
 intro:

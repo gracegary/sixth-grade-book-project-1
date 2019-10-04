@@ -40,19 +40,26 @@ const Navbar = class extends React.Component {
         aria-label="main-navigation"
       >
         <div className="container">
-          <div className="navbar-brand">
+          <div
+            className="navbar-brand"
+            style={{ display: "flex", alignItems: "center" }}
+          >
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ height: "40px" }} />
+              <img
+                src={logo}
+                alt="The Dead Boyfriend"
+                style={{ height: "40px" }}
+              />{" "}
             </Link>
-            {/* Hamburger menu */}
+            <div style={{ color: "white" }}>by R.L. Stine</div>
             <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
+              style={{
+                fontWeight: "bold",
+                marginLeft: "2rem",
+                color: "#5e3d58"
+              }}
             >
-              <span />
-              <span />
-              <span />
+              A Grace Gary Project
             </div>
           </div>
           <div

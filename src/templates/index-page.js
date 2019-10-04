@@ -73,6 +73,40 @@ export const IndexPageTemplate = ({
                   </h2>
                   <BlogRoll />
                 </div>
+
+                <div>
+                  <h2 style={{ marginTop: "4rem", marginLeft: "2rem" }}>
+                    About Shadyside!
+                  </h2>
+
+                  <div className="feature">
+                    <h4>Shadyside Map</h4>
+                    <img
+                      src="/img/shadyside_map.jpg"
+                      style={{ width: "100%" }}
+                    />
+                    <p>
+                      Shadyside is a small town known mostly for Fear Street.
+                      You can see it in red on the left side of the map! You can
+                      also spot Shadyside high just to the right of Fear Street.
+                    </p>
+
+                    <h4>Lefty's!</h4>
+                    <img src="/img/leftys.jpg" style={{ width: "100%" }} />
+                    <p>
+                      The famous Lefty's! Lefty's is featured in many of R.L.
+                      Stine's Fear Street books! It's a popular hangout for the
+                      high school kids!
+                    </p>
+
+                    <h4>Cineplex</h4>
+                    <img src="/img/cineplex.png" style={{ width: "100%" }} />
+                    <p>
+                      Caitlin has a job at the local Cineplex, raising money for
+                      College!
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
