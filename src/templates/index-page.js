@@ -16,7 +16,11 @@ export const IndexPageTemplate = ({
   intro
 }) => (
   <div>
-    <Parallax className="full-width-image" strength={100} bgImage={"/img/jumbotron_3.jpg"}>
+    <Parallax
+      className="full-width-image"
+      strength={100}
+      bgImage={"/img/header_dark.jpg"}
+    >
       <div
         style={{
           display: "flex",
@@ -44,27 +48,30 @@ export const IndexPageTemplate = ({
                     <h1 className="title color-secondary">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle color-secondary">{mainpitch.description}</h3>
+                    <h3 className="subtitle color-secondary">
+                      {mainpitch.description}
+                    </h3>
                   </div>
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {heading}
+                    </h3>
                     <p>{description}</p>
                   </div>
                 </div>
+
+                <h2 style={{ marginTop: "4rem", marginLeft: "2rem" }}>
+                  Main Characters
+                </h2>
                 <Features gridItems={intro.blurbs} />
 
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest entries from Caitlin's Blog
-                  </h3>
+                  <h2 style={{ marginTop: "4rem", marginLeft: "2rem" }}>
+                    Read Caitlin's Blog!
+                  </h2>
                   <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn " to="/blog">
-                      Read more
-                    </Link>
-                  </div>
                 </div>
               </div>
             </div>
@@ -136,6 +143,7 @@ export const pageQuery = graphql`
         description
         intro {
           blurbs {
+            title
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {

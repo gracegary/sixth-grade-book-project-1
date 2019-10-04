@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
+import moment from "moment";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
 class BlogRoll extends React.Component {
@@ -12,29 +13,21 @@ class BlogRoll extends React.Component {
       <div className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+            <div className="is-parent column is-6 feature" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
+                className={`blog-list-item tile is-child box ${
                   post.frontmatter.featuredpost ? "is-featured" : ""
                 }`}
               >
                 <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.title}`
-                        }}
-                      />
-                    </div>
-                  ) : null}
                   <p className="post-meta">
-                    <Link className="title has-text-primary is-size-4" to={post.fields.slug}>
+                    <h3 style={{ marginBottom: "1rem" }}>
                       {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">{post.frontmatter.date}</span>
+                    </h3>
+
+                    <span className="subtitle is-size-5 is-block">
+                      {moment(post.frontmatter.date).format("LL")}
+                    </span>
                   </p>
                 </header>
                 <p>
@@ -65,7 +58,10 @@ export default () => (
   <StaticQuery
     query={graphql`
       query BlogRollQuery {
-        allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "blog-post" } } }) {
+        allMarkdownRemark(
+          sort: { order: ASC, fields: [frontmatter___date] }
+          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+        ) {
           edges {
             node {
               excerpt(pruneLength: 400)
@@ -74,6 +70,7 @@ export default () => (
                 slug
               }
               frontmatter {
+                date
                 title
                 templateKey
               }

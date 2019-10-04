@@ -7,23 +7,23 @@ subheading: Murdering her boyfriend is the least of her troubles...
 mainpitch:
   title: About the Dead Boyfriend
   description: >
-    Write a short summary of the book here.
+    Caitlin has never had a real relationship before, so when she sees her boyfriend, Blade, with another girl, she completely loses it.  As she regains her senses, she realizes that Blade is dead - and she has killed him.  But if Blade is dead, how is he staring at her across a crowded party?
 description: >-
-  A little bit more information here.
+  Readers of this book will be looking over their shoulder!
 intro:
   blurbs:
     - image: /img/caitlin_profile.jpg
+      title: Caitlin Donnelly
       text: >
-        First character bio.  We can use shutterstock to find pictures to use
-    - image: /img/coffee-gear.png
+        Main Character - 17 years old.  Senior at Shadyside High School. Likes writing, telling her diary everything, going to Lefty's with her friends.  Works at the Cineplex.  Blade's Murderer.
+    - image: /img/blade_profile.jpg
+      title: Blade
       text: >
-        Second character bio.
-    - image: /img/tutorials.png
+        Dead Boyfriend - 17 years old.  Senior at Shadyside High.  Always wears a red hoodie.  Haunts Caitlin.  Caitlin's Victim.
+    - image: /img/deena_profile.jpg
+      title: Deena Fear
       text: >
-        Third character bio.
-    - image: /img/meeting-space.png
-      text: >
-        Fourth character bio.
+        Creepy Girl - 18 years old.  No education.  Loves horror things like books and movies.  Always wears black.  Likes skulls and piercings.  Friendless.  Dark magic practitioner.  Member of Fear Family.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
